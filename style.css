@@ -1,0 +1,53 @@
+* {
+    font-family: "Host Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 155px;
+    width: 100%;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link a {
+    color: #575757;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.nav-link a:hover{
+    color: #000102;
+}
+
+.nav-btn {
+    font-family: Host Grotesk;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000102;
+    text-decoration: none;
+    padding: 17px 24px;
+    background-color: #E8BA2E;
+    border-radius: 12px;
+    border: 1px solid #E8BA2E;
+}
+
+.nav-btn:hover{
+    background-color: transparent;
+    color: #E8BA2E;
+}
